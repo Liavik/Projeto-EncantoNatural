@@ -1,0 +1,27 @@
+body {
+    font-family: "Bellefair", serif;
+}
+
+.navbar{
+    background-color: #015d4d;
+}
+
+.nav .nav-link.active{
+    background-color: #efe9db;
+    color: #015d4d;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #efe9db;
+}
+
+.navbar-brand {
+    font-family: "Sacramento", cursive;
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    background-color: #efe9db;
+}
