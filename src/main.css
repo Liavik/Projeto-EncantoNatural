@@ -1,5 +1,6 @@
 body {
     font-family: "Bellefair", serif;
+
 }
 
 .navbar{
@@ -17,11 +18,27 @@ body {
     color: #efe9db;
 }
 
-.navbar-brand {
+.navbar-toggler {
+    background-color: #efe9db;
+}
+
+.article-title {
     font-family: "Sacramento", cursive;
     font-size: 40px;
 }
 
-.navbar-toggler {
+.article-title span {
+    color: #015d4d;
+}
+
+#sobre-a-confeitaria {
     background-color: #efe9db;
+}
+
+#sobre-a-confeitaria p {
+    font-size: 20px;
+}
+
+#sobre-a-confeitaria li {
+    font-size: 17px;
 }
