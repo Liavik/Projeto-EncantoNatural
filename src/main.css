@@ -1,5 +1,5 @@
 body {
-    font-family: "Bellefair", serif;
+    font-family: "Cinzel", serif;
 
 }
 
@@ -7,14 +7,15 @@ body {
     background-color: #015d4d;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: #efe9db;
     color: #015d4d;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
     color: #efe9db;
 }
 
@@ -23,12 +24,8 @@ body {
 }
 
 .article-title {
-    font-family: "Sacramento", cursive;
-    font-size: 40px;
-}
-
-.article-title span {
-    color: #015d4d;
+    font-family: "Great Vibes", cursive;
+    font-size: 42px;
 }
 
 #sobre-a-confeitaria {
@@ -36,9 +33,26 @@ body {
 }
 
 #sobre-a-confeitaria p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #sobre-a-confeitaria li {
-    font-size: 17px;
+    font-size: 15px;
+}
+
+.text-colored {
+    color: #015d4d;
+}
+
+#eventos p {
+    font-size: 16px;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #015d4d;
+    color: #efe9db;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #015d4d;
 }
