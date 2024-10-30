@@ -28,7 +28,7 @@ body {
     font-size: 42px;
 }
 
-#sobre-a-confeitaria {
+#sobre-a-confeitaria, #cardapio {
     background-color: #efe9db;
 }
 
@@ -55,4 +55,9 @@ body {
 
 .nav-cardapio .nav-link:hover {
     color: #015d4d;
+}
+
+.text-montage {
+    color: #015d4d;
+    margin: 10px 0px 10px 0px;
 }
