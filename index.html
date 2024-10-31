@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#contato" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Contato
                         </a>
@@ -50,7 +50,7 @@
             </nav>
         </div>
     </header>
-    <main data-bs-spy="scroll" data-bs-target="cabecalho">
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
         <article id="sobre-a-confeitaria">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -79,10 +79,10 @@
             <div class="pt-5 pd-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-5" id="foto-loja">
                             <img src="src/imagens/Eventos/Confeitaria.png" class="d-block w-100 rounded" alt="Foto do espaço interno da confeitaria">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="article-title text-colored">Sobre a confeitaria</h2>
                             <p>Bem-vindo à nossa confeitaria inclusiva, um espaço onde o sabor e a diversidade se encontram! Aqui, cada doce é preparado com carinho e criatividade, pensando em atender a todos os paladares e necessidades. Nossa missão é oferecer delícias que acolhem todas as pessoas, independentemente de restrições alimentares, preferências ou origens.</p>
                             <p>Acreditamos que a gastronomia deve ser uma experiência compartilhada, por isso desenvolvemos receitas que vão além do convencional, sempre com um toque especial. Venha nos visitar e descubra um mundo de sabores que celebra a inclusão e transforma momentos simples em memórias doces!</p>
@@ -108,28 +108,28 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-3">
-                        <img src="src/imagens/Eventos/Aniversario.jpg" alt="Mesa de aniversário" class="d-block w-100 rounded">
+                        <img src="src/imagens/Eventos/Aniversario.jpg" alt="Mesa de aniversário" class="d-block mx-auto rounded">
                         <h3 class="article-title text-colored text-center mt-2">Aniversários</h3>
                         <p class="text-center">
                             Oferecemos cardápio tanto de doces como de salgados. Além disso, proporcionamos atividades interativas, como oficinas de decoração de bolos, onde os convidados podem soltar a criatividade e se divertir.
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="src/imagens/Eventos/Casamento.jpg" alt="Mesa de casamento" class="d-block w-100 rounded mb-2">
+                        <img src="src/imagens/Eventos/Casamento.jpg" alt="Mesa de casamento" class="d-block mx-auto rounded mb-2">
                         <h3 class="article-title text-colored text-center mt-2">Casamento</h3>
                         <p class="text-center">
                             Nossa missão é tornar o dia dos noivos ainda mais especial, buscando criar uma experiência memorável e inclusiva. Aceitando grandes e pequenas quantidades de encomenda, para atendem a diferentes necessidades.
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="src/imagens/Eventos/Confraternizacao.jpg" alt="Taças fazendo brinde" class="d-block w-100 rounded mb-2">
+                        <img src="src/imagens/Eventos/Confraternizacao.jpg" alt="Taças fazendo brinde" class="d-block mx-auto rounded mb-2">
                         <h3 class="article-title text-colored text-center mt-2">Confraternização</h3>
                         <p class="text-center">
                             Seja em empresas ou encontros familiares, proporcionamos um menu diversificado que agrada a todos os paladares. Oferecemos desde mesas de doces temáticas até lanches e opções de café da manhã inclusivas.
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="src/imagens/Eventos/Workshop.jpg" alt="Workshop de Culinária inclusiva" class="d-block w-100 rounded mb-2">
+                        <img src="src/imagens/Eventos/Workshop.jpg" alt="Workshop de Culinária inclusiva" class="d-block mx-auto rounded mb-2">
                         <h3 class="article-title text-colored text-center mt-2">Workshop</h3>
                         <p class="text-center">
                             Promovemos aulas voltados para a conscientização sobre a culinária inclusiva. Oferecidas para pessoas com deficiência, crianças com necessidades especiais e idosos, incentivando a participação ativa de todos.
@@ -145,7 +145,7 @@
                 </div>
                 <div class="row">
                     <aside class="col-md-2">
-                        <nav class="nav nav-pills flex-column nav-cardapio">
+                        <nav class="nav nav-pills flex-column nav-cardapio mb-3">
                             <button type="button" data-bs-toggle="tab" data-bs-target="#baby-friendly" class="fw-bold text-start nav-link text-colored active">Baby-friendly</button> 
                             <button type="button" data-bs-toggle="tab" data-bs-target="#bolo-montage" class="fw-bold text-start nav-link text-colored">Bolos para montagem</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#bolo-pronto" class="fw-bold text-start nav-link text-colored">Bolos prontos</button>
@@ -161,63 +161,63 @@
                         <div class="tab-content">
                             <div class="tab-pane active" id="baby-friendly">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/bolo-formigueiro.png" alt="Bolo">
                                         <h5 class="text-colored fw-bold mt-2">Bolos simples</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/bolo.png" alt="Bolo decorado">
                                         <h5 class="text-colored fw-bold mt-2">Bolos decorados</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/smash-cake.png" alt="Bebê esmagando o bolo">
                                         <h5 class="text-colored fw-bold mt-2">Smash cake</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/biscoito-baunilha-chocolate.png" alt="Biscoito">
                                         <h5 class="text-colored fw-bold mt-2">Biscoito de animais</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/bombom-snickers.png" alt="Bombom">
                                         <h5 class="text-colored fw-bold mt-2">Bombom snickers</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/brigadeiro.png" alt="Brigadeiro">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/brownie.png" alt="Brownie">
                                         <h5 class="text-colored fw-bold mt-2">Brownie</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/cheesecake-frutas-vermelhas.png" alt="chessecake">
                                         <h5 class="text-colored fw-bold mt-2">chessecake de frutas vermelhas</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/cookie-gotas-chocolate.png" alt="Cookies">
                                         <h5 class="text-colored fw-bold mt-2">Cookies</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/muffin-banana.png" alt="Muffin">
                                         <h5 class="text-colored fw-bold mt-2">Muffin de banana</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/muffin-laranja.png" alt="Muffin">
                                         <h5 class="text-colored fw-bold mt-2">Muffin de laranja</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/pao-mel.png" alt="Pão de mel">
                                         <h5 class="text-colored fw-bold mt-2">Pão de mel</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/torta-banoffee.png" alt="Torta">
                                         <h5 class="text-colored fw-bold mt-2">Torta banoffee</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/torta-caramelo-salgado.png" alt="Torta">
                                         <h5 class="text-colored fw-bold mt-2">Torta caramelo salgado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Baby-friendly/torta-morango.png" alt="Tortinha">
                                         <h5 class="text-colored fw-bold mt-2">Torta de morango</h5>
                                     </div>
@@ -226,77 +226,77 @@
                             <div class="tab-pane" id="bolo-montage">
                                 <div class="row">
                                     <h4 class="text-center text-colored text-montage">Massas</h4>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/chocolate.png" alt="Massa de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/baunilha.png" alt="Massa de baunilha">
                                         <h5 class="text-colored fw-bold mt-2">Baunilha</h5>
                                     </div>
                                     <h4 class="text-center text-colored text-montage">Recheios</h4>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/brigadeiro-branco.png" alt="Recheio de Brigadeiro branco">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro branco</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/brigadeiro.png" alt="Recheio de Brigadeiro">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/coco-queimado-nozes.png" alt="Recheio de Coco queimado com nozes">
                                         <h5 class="text-colored fw-bold mt-2">Coco queimado com nozes</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/coco.png" alt="Recheio de Coco">
                                         <h5 class="text-colored fw-bold mt-2">Coco</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/doce-leite.png" alt="Recheio de Doce de leite">
                                         <h5 class="text-colored fw-bold mt-2">Doce de leite</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/paçoca.png" alt="Recheio de Paçoca">
                                         <h5 class="text-colored fw-bold mt-2">Paçoca</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/pistache.png" alt="Recheio de Pistache">
                                         <h5 class="text-colored fw-bold mt-2">Pistache</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/ganaches.png" alt="Recheio de Ganache">
                                         <h5 class="text-colored fw-bold mt-2">Ganache</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/trufado.png" alt="Recheio de Trufado">
                                         <h5 class="text-colored fw-bold mt-2">Trufado</h5>
                                     </div>
                                     <h4 class="text-center text-colored text-montage">Finalizações</h4>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/buttercream.png" alt="Cobertura de Buttercream">
                                         <h5 class="text-colored fw-bold mt-2">Buttercream</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/chantilly.png" alt="Cobertura de Chantilly">
                                         <h5 class="text-colored fw-bold mt-2">Chantilly</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/andar.png" alt="Bolo de andar">
                                         <h5 class="text-colored fw-bold mt-2">Bolo de Andar</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/bentô.png" alt="Bolo bentô">
                                         <h5 class="text-colored fw-bold mt-2">Bentô cake</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/confeitado.png" alt="Bolo Decorados">
                                         <h5 class="text-colored fw-bold mt-2">Decorado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/naked.png" alt="Bolo Naked">
                                         <h5 class="text-colored fw-bold mt-2">Naked cake</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-montage/Semi-naked.png" alt="Bolo semi naked">
                                         <h5 class="text-colored fw-bold mt-2">Semi naked cake</h5>
                                     </div>
@@ -304,59 +304,59 @@
                             </div>
                             <div class="tab-pane" id="bolo-pronto">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/abacaxi-invertido.png" alt="Bolo abacaxi invertido">
                                         <h5 class="text-colored fw-bold mt-2">Abacaxi invertido</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/banana-caramelizada.png" alt="Bolo banana caramelizada">
                                         <h5 class="text-colored fw-bold mt-2">Banana caramelizada</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/bolo-formigueiro.png" alt="Bolo formigueiro">
                                         <h5 class="text-colored fw-bold mt-2">Formigueiro</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/cenoura.png" alt="Bolo de cenoura">
                                         <h5 class="text-colored fw-bold mt-2">Cenoura</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/coco-gelado.png" alt="Bolo de coco gelado">
                                         <h5 class="text-colored fw-bold mt-2">Coco gelado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/fuba-goiabada.png" alt="Bolo de fubá com goiabada">
                                         <h5 class="text-colored fw-bold mt-2">Fubá com goiabada</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/laranja.png" alt="Bolo de laranja">
                                         <h5 class="text-colored fw-bold mt-2">Laranja</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/limao.png" alt="Bolo de limão">
                                         <h5 class="text-colored fw-bold mt-2">Limão</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/maca-nozes.png" alt="Bolo de maçã com nozes">
                                         <h5 class="text-colored fw-bold mt-2">Maçã com nozes</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/maracuja.png" alt="Bolo de maracujá">
                                         <h5 class="text-colored fw-bold mt-2">Maracujá</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/milho.png" alt="Bolo de milho">
                                         <h5 class="text-colored fw-bold mt-2">Milho</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/namelaka.png" alt="Bolo namelaka">
                                         <h5 class="text-colored fw-bold mt-2">Namelaka</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/pao-mel.png" alt="Bolo pão de mel">
                                         <h5 class="text-colored fw-bold mt-2">Pão de mel</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Bolos-prontos/red-velvet.png" alt="Bolo red velvet">
                                         <h5 class="text-colored fw-bold mt-2">Red velvet</h5>
                                     </div>
@@ -364,39 +364,39 @@
                             </div>
                             <div class="tab-pane" id="cookie">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/brownie.png" alt="Cookies de brownie">
                                         <h5 class="text-colored fw-bold mt-2">Brownie</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/chocolate.png" alt="Cookies de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/creme-avela.png" alt="Cookies de creme de avelã">
                                         <h5 class="text-colored fw-bold mt-2">Creme de avelã</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/goiabada-cream-cheese.png" alt="Cookies de goiabada e cream cheese">
                                         <h5 class="text-colored fw-bold mt-2">Goiabada com cream cheese</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/gotas-chocolate-branco.png" alt="Cookies com gotas de chocolate branco">
                                         <h5 class="text-colored fw-bold mt-2">Gotas de chocolate branco</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/gotas-chocolate.png" alt="Cookies com gotas de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Gotas de chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/limao-siciliano.png" alt="Cookies de limão siciliano">
                                         <h5 class="text-colored fw-bold mt-2">Limão siciliano</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/pao-mel.png" alt="Cookies de pão de mel">
                                         <h5 class="text-colored fw-bold mt-2">Pão de mel</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Cookies/pistache.png" alt="Cookies de pistache">
                                         <h5 class="text-colored fw-bold mt-2">Pistache</h5>
                                     </div>
@@ -404,63 +404,63 @@
                             </div>
                             <div class="tab-pane" id="doce-diverso">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/bolo-pote.png" alt="Bolo no pote">
                                         <h5 class="text-colored fw-bold mt-2">Bolo de pote</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/brigadeirao.png" alt="Brigadeirão">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeirão</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/brownie.png" alt="Brownie">
                                         <h5 class="text-colored fw-bold mt-2">Brownie</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/cupcake.png" alt="Cupcake">
                                         <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/limao.png" alt="Tortinha de limão">
                                         <h5 class="text-colored fw-bold mt-2">Tortinha de limão</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/morango.png" alt="Tortinha de morango">
                                         <h5 class="text-colored fw-bold mt-2">Tortinha de morango</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/mousse-chocolate.png" alt="Mousse de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Mousse de chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/mousse-limao.png" alt="Mousse de limão">
                                         <h5 class="text-colored fw-bold mt-2">Mousse de limão</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/mousse-maracuja.png" alt="Mousse de maracujá">
                                         <h5 class="text-colored fw-bold mt-2">Mousse de maracujá</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/mousse-morango.png" alt="Mousse de morango">
                                         <h5 class="text-colored fw-bold mt-2">Mousse de morango</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/pao-melado.png" alt="Pão de melado">
                                         <h5 class="text-colored fw-bold mt-2">Pão de melado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/petit-gateau.png" alt="Petit gateau">
                                         <h5 class="text-colored fw-bold mt-2">Petit gateau</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/pudim.png" alt="Pudim">
                                         <h5 class="text-colored fw-bold mt-2">Pudim</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/slice-cake.png" alt="Slice cake">
                                         <h5 class="text-colored fw-bold mt-2">Slice cake</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Doces-diversos/tiramisu.png" alt="Tiramisu">
                                         <h5 class="text-colored fw-bold mt-2">Tiramisu</h5>
                                     </div>
@@ -468,63 +468,63 @@
                             </div>
                             <div class="tab-pane" id="docinho">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/beijinho.png" alt="Beijinho">
                                         <h5 class="text-colored fw-bold mt-2">Beijinho</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/bem-casado.png" alt="Bem-casado">
                                         <h5 class="text-colored fw-bold mt-2">Bem-casado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/bombom-avela.png" alt="Bombom de avelã">
                                         <h5 class="text-colored fw-bold mt-2">Bombom de avelã</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/bombom-morango.png" alt="Bombom de morango">
                                         <h5 class="text-colored fw-bold mt-2">Bombom de morango</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/bombom.png" alt="Bombom">
                                         <h5 class="text-colored fw-bold mt-2">Bombom</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro-branco.png" alt="Brigadeiro branco">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro branco</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro-churros.png" alt="Brigadeiro de churros">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro de churros</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro-explosivo.png" alt="Brigadeiro explosivo">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro explosivo</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro-morango.png" alt="Brigadeiro de morango">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro de morango</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro-pistache.png" alt="Brigadeiro de pistache">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro de pistache</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/brigadeiro.png" alt="Brigadeiro">
                                         <h5 class="text-colored fw-bold mt-2">Brigadeiro</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/cajuzinho.png" alt="Cajuzinho">
                                         <h5 class="text-colored fw-bold mt-2">Cajuzinho</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/camafeu.png" alt="Camafeu">
                                         <h5 class="text-colored fw-bold mt-2">Camafeu</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/doce-copinho.png" alt="Doce no copinho">
                                         <h5 class="text-colored fw-bold mt-2">Doce no copinho</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Docinhos/surpresa-uva.png" alt="Surpresa de uva">
                                         <h5 class="text-colored fw-bold mt-2">Surpresa de uva</h5>
                                     </div>
@@ -532,63 +532,63 @@
                             </div>
                             <div class="tab-pane" id="torta">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/banoffee.png" alt="Torta de banoffee">
                                         <h5 class="text-colored fw-bold mt-2">Banoffee</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/basca.png" alt="Torta de basca">
                                         <h5 class="text-colored fw-bold mt-2">Basca</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/caramelo-salgado.png" alt="Torta de caramelo salgado">
                                         <h5 class="text-colored fw-bold mt-2">Caramelo salgado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/cheesecake-frutas-vermelhas.png" alt="Cheesecake de frutas vermelhas">
                                         <h5 class="text-colored fw-bold mt-2">Cheesecake de frutas vermelhas</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/chocolate.png" alt="Torta de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/cookie.png" alt="Torta de cookie">
                                         <h5 class="text-colored fw-bold mt-2">Cookie</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/gianduia.png" alt="Torta gianduia">
                                         <h5 class="text-colored fw-bold mt-2">Gianduia</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/holandesa.png" alt="Torta holandesa">
                                         <h5 class="text-colored fw-bold mt-2">Holandesa</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/limao-cremoso.png" alt="Torta de limão cremoso">
                                         <h5 class="text-colored fw-bold mt-2">Limão cremoso</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/maca.png" alt="Torta de maçã">
                                         <h5 class="text-colored fw-bold mt-2">Maçã</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/monoffee.png" alt="Torta de monoffee">
                                         <h5 class="text-colored fw-bold mt-2">Monoffee</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/mousse.png" alt="Torta de mousse">
                                         <h5 class="text-colored fw-bold mt-2">Mousse</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/s'mores.png" alt="Torta s'mores">
                                         <h5 class="text-colored fw-bold mt-2">S'mores</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/snickers.png" alt="Torta snickers">
                                         <h5 class="text-colored fw-bold mt-2">Snickers</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Tortas/sonho-valsa.png" alt="Torta sonho de valsa">
                                         <h5 class="text-colored fw-bold mt-2">Sonho de valsa</h5>
                                     </div>
@@ -596,63 +596,63 @@
                             </div>
                             <div class="tab-pane" id="pascoa">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/barra.png" alt="Barra de chocolate recheada">
                                         <h5 class="text-colored fw-bold mt-2">Barra de chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/camafeu.png" alt="Ovo de páscoa de camafeu">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de camafeu</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/caramelo-crocante.png" alt="Ovo de páscoa de caramelo crocante">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de caramelo crocante</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/coelho.png" alt="Coelho colorido de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Coelho de chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/cookies-cream.png" alt="Ovo de páscoa de cookies and cream">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de cookies & cream</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/drage.png" alt="Ovo de páscoa Drageado">
                                         <h5 class="text-colored fw-bold mt-2">Ovo drage</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/franui.png" alt="Ovo de páscoa Franui">
                                         <h5 class="text-colored fw-bold mt-2">Ovo Franui</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/Frutas-vermelhas.png" alt="Ovo de páscoa de frutas vermelhas">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de frutas vermelhas</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/ninho-nutella.png" alt="Ovo de páscoa de ninho e nutella">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de ninho e nutella</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/pacoca.png" alt="Ovo de páscoa de paçoca">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de paçoca</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/palha-italiana.png" alt="Ovo de páscoa de palha italiana">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de palha italiana</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/pao-melado.png" alt="Ovo de páscoa de pão de melado">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de pão de melado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/pistache.png" alt="Ovo de páscoa de pistache">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de pistache</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/pote.png" alt="Ovo no pote">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de pote</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Pascoa/pudim.png" alt="Ovo de páscoa de pudim">
                                         <h5 class="text-colored fw-bold mt-2">Ovo de pudim</h5>
                                     </div>
@@ -660,52 +660,117 @@
                             </div>
                             <div class="tab-pane" id="natal">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/baby.png" alt="Panettone baby-friendly">
                                         <h5 class="text-colored fw-bold mt-2">Panettone baby-friendly</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/biscoito-gengibre.png" alt="Biscoito de gengibre">
                                         <h5 class="text-colored fw-bold mt-2">Biscoito de gengibre</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/bites.png" alt="Panettone bites">
                                         <h5 class="text-colored fw-bold mt-2">Panettone bites</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/caramelo-salgado.png" alt="Panettone de caramelo salgado">
                                         <h5 class="text-colored fw-bold mt-2">Panettone de caramelo salgado</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/chocolate.png" alt="Panettone de chocolate">
                                         <h5 class="text-colored fw-bold mt-2">Panettone de chocolate</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/crocante.png" alt="Panettone crocante">
                                         <h5 class="text-colored fw-bold mt-2">Panettone crocante</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/doce-leite.png" alt="Panettone de doce de leite">
                                         <h5 class="text-colored fw-bold mt-2">Panettone de doce de leite</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/frutas-vermelhas.png" alt="Panettone de frutas vermelhas">
                                         <h5 class="text-colored fw-bold mt-2">Panettone de frutas vermelhas</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/guirlanda-brownie.png" alt="Guirlanda de brownie">
                                         <h5 class="text-colored fw-bold mt-2">Guirlanda de brownie</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/pistache.png" alt="Panettone de pistache">
                                         <h5 class="text-colored fw-bold mt-2">Panettone de pistache</h5>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-sm-6 col-md-3">
                                         <img class="d-block w-100" src="src/imagens/Cardapio/Natal/zero.png" alt="Panettone zero">
                                         <h5 class="text-colored fw-bold mt-2">Panettone zero</h5>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h4 class="article-title text-center text-colored">Fale conosco</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <h3 class="article-title fs-2 text-colored">Contato para workshop</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="article-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="article-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua dos bobos n° 0, Bairro teste - Curitiba - PR
+                            </p>
                         </div>
                     </div>
                 </div>

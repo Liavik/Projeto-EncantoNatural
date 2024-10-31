@@ -48,7 +48,8 @@ body {
     font-size: 16px;
 }
 
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#contato button {
     background-color: #015d4d;
     color: #efe9db;
 }
@@ -60,4 +61,35 @@ body {
 .text-montage {
     color: #015d4d;
     margin: 10px 0px 10px 0px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    #foto-loja {
+        max-height: 400px;
+        overflow-y: hidden;
+    }
+
+    #eventos img {
+        max-height: 300px;
+        max-width: 300px;
+    }
 }
