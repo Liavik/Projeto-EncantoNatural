@@ -93,3 +93,10 @@ body {
         max-width: 300px;
     }
 }
+
+@media (max-width: 990px) {
+    #foto-loja {
+        max-height: 600px;
+        overflow-y: hidden;
+    }
+}
